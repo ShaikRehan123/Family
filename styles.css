@@ -1,0 +1,68 @@
+.blink_me{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 52px;
+    color: coral;
+    font-weight: bold;
+}
+.blink_me {
+    animation: blinker 1s linear infinite;  
+}
+  
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .description-container {
+    
+} */
+.image{
+    height: 300px;
+    width: 200px;
+    margin-left: 15px;
+    border-radius:100px;
+    transition: transform .2s; /* Animation */
+}
+.text{
+    text-align: center;
+    margin-top: 15px;
+    font-size:35px;
+    color:seagreen;
+    font-family: 'Stylish', sans-serif;
+}
+.image:hover{
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* .member_name{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 50px;
+} */
+.occasions-container{
+    /* background-color: aqua; */
+    margin: 50px;
+}
+.occasion-heading{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 52px;
+    color: coral;
+    font-weight: bold;
+}
+.occasion-heading {
+    animation: blinker 1s linear infinite;  
+}
+  
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
